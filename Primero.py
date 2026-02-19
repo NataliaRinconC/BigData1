@@ -2,7 +2,7 @@ def es_primo(numero):
     if numero <= 1:
         return False
     if numero == 2:
-        return True
+        return False  # ERROR INTENCIONAL: 2 sí es primo
     if numero % 2 == 0:
         return False
 
@@ -25,3 +25,4 @@ if __name__ == "__main__":
     
     except ValueError:
         print("Por favor, ingresa un número entero válido.")
+
