@@ -24,5 +24,5 @@ if __name__ == "__main__":
             print(f"{numero} no es un número primo.")
     
     except ValueError:
-        print("Por favor, ingresa un número entero válido.")
+        print("Por favor, ingresa un número entero válido aaaaaaa.")
 
